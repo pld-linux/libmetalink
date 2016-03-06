@@ -6,16 +6,18 @@
 Summary:	Metalink library written in C
 Summary(pl.UTF-8):	Biblioteka obsługi plików Metalink napisana w C
 Name:		libmetalink
-Version:	0.1.2
-Release:	3
+Version:	0.1.3
+Release:	1
 License:	MIT
 Group:		Libraries
-Source0:	http://launchpad.net/libmetalink/trunk/packagingfix/+download/%{name}-%{version}.tar.bz2
-# Source0-md5:	e60ea56d910ebfe4c303808db497e92a
+Source0:	http://launchpad.net/libmetalink/trunk/%{name}-%{version}/+download/%{name}-%{version}.tar.xz
+# Source0-md5:	f2c097557e2487313cd0be62d55952de
 URL:		https://launchpad.net/libmetalink
 %{?with_tests:BuildRequires:	CUnit-devel >= 2.1}
 BuildRequires:	expat-devel >= 1:2.1.0
 BuildRequires:	pkgconfig >= 1:0.20
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 Requires:	expat >= 1:2.1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
