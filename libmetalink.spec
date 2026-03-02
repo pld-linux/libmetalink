@@ -7,7 +7,7 @@ Summary:	Metalink library written in C
 Summary(pl.UTF-8):	Biblioteka obsługi plików Metalink napisana w C
 Name:		libmetalink
 Version:	0.1.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 Source0:	http://launchpad.net/libmetalink/trunk/%{name}-%{version}/+download/%{name}-%{version}.tar.xz
